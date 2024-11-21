@@ -38,3 +38,23 @@
       background-image: url('../../../public/css/img/logo-3.png')
     &:nth-child(4)
       background-image: url('../../../public/css/img/logo-4.png')
+    
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4)
+      background-size: 15% // Réduit l'image dans le conteneur
+      background-repeat: no-repeat // Évite les répétitions de l'image
+      background-position: center // Centre l'image dans le conteneur
+
+  p
+    top: 0.5em // Réduit l'espace entre le p et .t4
+    position: relative
+    justify-content: left
+    padding-right: 40%
+
+.t4
+  width: 90%
+  font-size: 13px
+  position: relative
+  text-align: left
