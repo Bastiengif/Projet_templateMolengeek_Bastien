@@ -1,0 +1,30 @@
+//Container_s
+.container.py-5
+  position: relative
+  top: -30px  // Déplacer vers le haut le contenu gris
+  padding-top: 1rem  // Ajuster le padding-top
+  
+.text-center.mb-4
+  margin-bottom: 1.5rem  // Vous pouvez ajuster cette valeur pour votre besoin
+    
+// Container py-5 grid
+.s2_grid //grille pur faire les carré avec logo de la partie featured services
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr 1fr //nombre de colonne avec 1frame
+  width: 79% //crée l espace entre les cases en grid
+  padding-left: 9%
+  
+
+  > div //texte dans les cadres et le cadre 
+    height: 12.5em
+    width: 12.5em
+    display: flex
+    justify-content: left
+    flex-direction: column
+    text-align: left
+    color: #727272
+    margin-left: 45%
+    margin-top: -20%
+    background-color: #ffffff
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+    border-radius: 6px
