@@ -11,3 +11,17 @@
       background-size: cover
       background-position: center
       z-index: -1 // L'image en fond doit être derrière le contenu du carrousel
+
+    .carousel-filtre
+      position: absolute
+      left: 50%
+      top: 0
+      color: black
+      background: rgba(0, 0, 0, 0.8)
+      width: 100%
+      height: 100%
+
+  // Navigation du carrousel
+  .carousel-control-prev, .carousel-control-next
+    filter: invert-color(1) // Changer la couleur des icônes de nav
+    margin-top: 5%
