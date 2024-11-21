@@ -1,25 +1,42 @@
 #myCarousel
+  .carousel-contenu
+    margin-top: 3%
+  
   .carousel-item
     position: relative
+    text-align: center
     height: 300px //hauteur image
-    margin-top: 3%
+    //bg-black est une forme noir avec une opacité réduite
+    .bg-black.bg-opacity-75 
+    position: absolute
+    align-items: center
+    justify-content: center
+    height: 380px
+    display: flex
+
     .carousel-image
       position: absolute
       width: 100%
       height: 100%
-      background-image: url('../../../public/css/img/testi.jpg') // Référencez votre image ici
+      background-image: url('../../../public/css/img/testi.jpg')
       background-size: cover
-      background-position: center
       z-index: -1 // L'image en fond doit être derrière le contenu du carrousel
 
-    .carousel-filtre
-      position: absolute
-      left: 50%
-      top: 0
-      color: black
-      background: rgba(0, 0, 0, 0.8)
-      width: 100%
-      height: 100%
+    h3, p
+    position: relative // Permet de déplacer les éléments h3 et p indépendamment
+    margin: 0
+
+  h3
+    // Déplace le texte h3 vers le bas
+    margin-top: 4%
+    color: #3467eb
+    font-size: 25px
+
+  p
+    // Déplace le texte p vers le bas
+    margin-top: 4%
+    font-size: 12px
+    color: white
 
   // Navigation du carrousel
   .carousel-control-prev, .carousel-control-next
