@@ -56,6 +56,290 @@
   </div>
 </div>
 
+<!---->
+<!--code avec 4 carre a ajouter en sauvgarde apres-->
+<div class="container py-5"> <!--faire le sass de la div ici presente-->
+  <div class="text-center mb-4">
+    <span class="badge bg-light text-primary px-3 py-2">FEATURED SERVICES</span>
+    <h2 class="mt-3">
+      Read <span class="text-primary">Featured Services</span>
+    </h2>
+  </div>
+</div>
+</div>
+<!--service proposer par le site-->
+<section class="s2">
+  <div class="container">
+    <div class="row s2_grid">
+      <div class="col text-center grid-item bg1">
+        <p>Lorem Ipsum</p>
+        <div class="t4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</div>
+      </div>
+      <div class="col text-center grid-item bg2">
+        <p>Sed ut perspiciatis</p>
+        <div class="t4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</div>
+      </div>
+      <div class="col text-center grid-item bg3">
+        <p>Magni Dolores</p>
+        <div class="t4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</div>
+      </div>
+      <div class="col text-center grid-item bg4">
+        <p>Nemo Enim</p>
+        <div class="t4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---->
+<!-- Carousel container -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicateurs de navigation -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  </div>
+
+<!-- Carousel -->
+  <div class="carousel-contenu d-flex bg-black bg-opacity-75 w-100 h-100 d-flex">
+    <div class="carousel-item active">
+      <!-- L'image sera gérée dans le sass comme les autres images-->
+      <div class="carousel-image"></div>
+      <div class="carousel- d-none d-md-block">
+        <h3>Testimonial 3</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipiscing elit. Possimus ipsum nemo libero odio impedit incident quidem voluptatibus, doloremque dignissimos nisi mollitia omnis nam blanditiis quasi cupiditate <br> perferendis suscipit placeat repellat corporis ratione sequi, consequuntur, fugit totam? Iste delectus consequatur a. Illum consequatur quibusdam obcaecati! Dolores magni obcaecati eum blanditiis sunt.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Zones de bouton suivant et précedants chercher dans css pour modif bootstrap4 -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!---->
+<!--Zones pour les 6 case avec les services proposer-->
+<!-- Ligne 1 des cases en 2 line avec images a l'interieurs -->
+<div class="container py-5">
+  <!-- Section Introduction -->
+  <div class="text-center mb-5 mt-4">
+    <span class="badge bg-primary text-light py-2 px-3">SERVICES</span>
+    <h2 class="mt-2">
+      Check our <span class="text-primary">Services</span>
+    </h2>
+    <p class="text-muted">
+      Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci <br> expedita at voluptas atque autem.
+    </p>
+  </div>
+
+<!-- ligne 1 (voir si je peut tout concentrer pour avoir un code d une case qui s applique a tous les autres)-->
+<div class="row g-4 justify-content-center">
+  <!-- Case 1 ne pas oublier le contour des petits carré et changer la couleurs-->
+  <div class="col-md-3 d-flex justify-content-center">
+    <div class="card text-center w-100" style="border: 1px solid rgb(209, 209, 209); border-radius: 0;"> <!--grand carré-->
+      <div class="card-body">
+        <div class="icon-wrapper bg-light text-primary d-flex align-items-center justify-content-center mx-auto mb-3 border couleurs-custom" style="width: 60px; height: 60px; border: 1px solid rgb(214, 230, 255); border-radius: 8%;"> <!--petit carré avec logo dedans-->
+          <img src="./public/css/img/logo-1.png" alt="Service 1" style="width: 21px; height: 21px;">
+        </div>
+        <h5 class="card-title">Lorem Ipsum</h5>
+        <p class="card-text text-muted">Voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Case 2 -->
+  <div class="col-md-3 d-flex justify-content-center">
+    <div class="card text-center w-100" style="border: 1px solid rgb(209, 209, 209); border-radius: 0;">
+      <div class="card-body">
+        <div class="icon-wrapper bg-light text-primary d-flex align-items-center justify-content-center mx-auto mb-3 border couleurs-custom" style="width: 60px; height: 60px; border-radius: 8%;">
+          <img src="./public/css/img/logo-2.png" alt="Service 1" style="width: 19px; height: 24px;"> <!--image a mettre dans le petit carré-->
+        </div>
+        <h5 class="card-title">Sed ut perspiciatis</h5>
+        <p class="card-text text-muted">Duis aute irure dolor in reprehenderit in voluptate.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Case 3 -->
+  <div class="col-md-3 d-flex justify-content-center">
+    <div class="card text-center w-100" style="border: 1px solid rgb(209, 209, 209); border-radius: 0;">
+      <div class="card-body">
+        <div class="icon-wrapper bg-light text-primary d-flex align-items-center justify-content-center mx-auto mb-3 border couleurs-custom" style="width: 60px; height: 60px; border-radius: 8%;">
+          <img src="./public/css/img/logo-3.png" alt="Service 1" style="width: 23px; height: 19px;">
+        </div>
+        <h5 class="card-title">Magni Dolores</h5>
+        <p class="card-text text-muted">Excepteur sint occaecat cupidatat non proident.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- ligne 2 (repère pour la ligne avec les 3 images du dessous)-->
+      <div class="row g-4 justify-content-center mt-4">
+        <!-- Case 4 -->
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card text-center w-100" style="border: 1px solid rgb(209, 209, 209); border-radius: 0;">
+            <div class="card-body">
+              <div class="icon-wrapper bg-light text-primary d-flex align-items-center justify-content-center mx-auto mb-3 border couleurs-custom" style="width: 60px; height: 60px; border-radius: 8%;">
+                <img src="./public/css/img/logo-4.png" alt="Service 1" style="width: 21px; height: 21px;">
+              </div>
+              <h5 class="card-title">Nemo Enim</h5>
+              <p class="card-text text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Case 5 -->
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card text-center w-100" style="border: 1px solid rgb(209, 209, 209); border-radius: 0;">
+            <div class="card-body">
+              <div class="icon-wrapper bg-light text-primary d-flex align-items-center justify-content-center mx-auto mb-3 border couleurs-custom" style="width: 60px; height: 60px; border-radius: 8%;">
+                <img src="./public/css/img/logo-5.png" alt="Service 1" style="width: 30px; height: 30px;">
+              </div>
+              <h5 class="card-title">Dele Cardo</h5>
+              <p class="card-text text-muted">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Case 6 -->
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="card text-center w-100" style="border: 1px solid rgb(209, 209, 209); border-radius: 0;">
+            <div class="card-body">
+              <div class="icon-wrapper bg-light text-primary d-flex align-items-center justify-content-center mx-auto mb-3 border couleurs-custom" style="width: 60px; height: 60px; border-radius: 8%;">
+                <img src="./public/css/img/logo-6.png" alt="Service 1" style="width: 30px; height: 30px;">
+              </div>
+              <h5 class="card-title">Divera Don</h5>
+              <p class="card-text text-muted">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!---->
+<!--zone de photo crew -->
+<div class="bg-light py-5"> <!--ajout fond-->
+<div class="container ">
+  <div class="text-center mb-5">
+    <span class="badge bg-primary text-light py-2 px-3">TEAM</span>
+    <h2 class="mt-3">Our Hardworking <span class="text-primary">Team</span></h2>
+    <p class="text-muted">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+  </div>
+
+    <div class="case">
+    <div class="case_image">
+      <img src="./public/css/img/team/team-1.jpg" alt="Walter">
+      <h3>Walter White</h3>
+      <p>Chief Executive Officer</p>
+    </div>
+    <div class="case_image">
+      <img src="./public/css/img/team/team-2.jpg" alt="Sarah">
+      <h3>Sarah Jhonson</h3>
+      <p>Product Manager</p>
+    </div>
+    <div class="case_image">
+      <img src="./public/css/img/team/team-3.jpg" alt="William">
+      <h3>William Anderson</h3>
+      <p>CTO</p>
+    </div>
+    <div class="case_image">
+      <img src="./public/css/img/team/team-4.jpg" alt="Amanda">
+      <h3>Amanda Jepson</h3>
+      <p>Accountant</p>
+      </div>
+  </div>
+</div>
+
+<section class="contact-section py-5" style="background-color: #f8f9fa;">
+  <div class="container">
+    <!-- Section header -->
+    <div class="text-center mb-5">
+      <span class="badge bg-primary py-2 px-3" style="font-size: 14px; letter-spacing: 1px;">CONTACT</span>
+      <h2 class="mt-3" style="font-weight: bold; color: #007bff;">Contact Us</h2>
+      <p class="text-muted" style="max-width: 600px; margin: 0 auto;">
+        Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.
+      </p>
+    </div>
+
+    <!-- Contact info boite -->
+    <div class="row text-center mb-4">
+      <!-- Our Address -->
+      <div class="col-lg-4 col-md-6">
+        <div class="info-box" style="background: #fff; border: 1px solid #e6e6e6;">
+          <img src="./public/css/img/logo_7.png" alt="Our Address" style="width: 50px; height: 50px;">
+          <h5 class="mt-2" style="font-weight: bold;">Our Address</h5>
+          <p class="text-muted" style="font-size: 14px;">Place de la minoterie 10, 1080 Molenbeek-Saint-Jean</p>
+        </div>
+      </div>
+
+      <!-- Email Us -->
+      <div class="col-lg-2 col-md-5">
+        <div class="info-box" style="background: #fff; border: 1px solid #e6e6e6;">
+          <img src="./public/css/img/logo_8.png" alt="Our Address" style="width: 50px; height: 50px;">
+          <h5 class="mt-2" style="font-weight: bold;">Email Us</h5>
+          <p class="text-muted" style="font-size: 14px;">info@molengeek.com</p>
+        </div>
+      </div>
+
+      <!-- Call Us -->
+      <div class="col-lg-2 col-md-5">
+        <div class="info-box" style="background: #fff; border: 1px solid #e6e6e6;">
+          <img src="./public/css/img/logo_9.png" alt="Our Address" style="width: 50px; height: 50px;">
+          <h5 class="mt-2" style="font-weight: bold;">Call Us</h5>
+          <p class="text-muted" style="font-size: 14px;">+1 5589 55488 55</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form et map section -->
+    <div class="row">
+      <!-- Google Map -->
+      <div class="col-md-6 mb-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.8906042020963!2d4.325075115751485!3d50.857264979532376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c43e3b2b70d1%3A0xa6a8b07e2b90587!2sPlace%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e0!3m2!1sfr!2sbe!4v1662994371459!5m2!1sfr!2sbe"
+          width="70%"
+          height="300"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-4"> <!--largeur de toutes les cases-->
+        <form>
+          <div class="row mb-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your Name" required style="padding: 10px; border: 1px solid #e6e6e6;">
+            </div>
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Your Email" required style="padding: 10px; border: 1px solid #e6e6e6;">
+            </div>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Subject" required style="padding: 10px; border: 1px solid #e6e6e6;">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Message" required style="padding: 10px; border: 1px solid #e6e6e6;"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary px-5" style="background-color: #007bff;">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 <!--a ne pas enlever important-->
