@@ -11872,7 +11872,7 @@ textarea.form-control-lg {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
   display: flex;
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 .container-fluid.background-image, .background-image.container-sm, .background-image.container-md, .background-image.container-lg, .background-image.container-xl, .background-image.container-xxl {
@@ -11890,103 +11890,17 @@ textarea.form-control-lg {
   height: 100%;
   display: flex;
 }
-.container-fluid .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-sm .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-md .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-lg .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-xl .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-xxl .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-fluid .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-sm .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-md .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-lg .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-xl .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-xxl .bg-white.bg-opacity-75 .display-5.fw-bold.h1 {
+.container-fluid .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-sm .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-md .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-lg .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-xl .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-xxl .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-fluid .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-sm .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-md .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-lg .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-xl .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-xxl .bg-white.bg-opacity-75 .display-6.fw-bold.h1 {
   text-align: center;
+  margin-top: -19.3%;
 }
-.container-fluid .bg-white.bg-opacity-75 p.fs-4, .container-sm .bg-white.bg-opacity-75 p.fs-4, .container-md .bg-white.bg-opacity-75 p.fs-4, .container-lg .bg-white.bg-opacity-75 p.fs-4, .container-xl .bg-white.bg-opacity-75 p.fs-4, .container-xxl .bg-white.bg-opacity-75 p.fs-4 {
-  text-align: center;
-}
-.container-fluid .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-sm .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-md .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-lg .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-xl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-xxl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-fluid .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-sm .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-md .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-lg .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-xl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-xxl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary {
-  text-align: center;
-}
-
-.container.py-5 {
-  position: relative;
-  top: -30px;
-  padding-top: 1rem;
-}
-
-.text-center.mb-4 {
-  margin-bottom: 1.5rem;
-}
-
-.s2_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 79%;
-  padding-left: 9%;
-}
-.s2_grid > div {
-  height: 12.5em;
-  width: 12.5em;
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
+.container-fluid .bg-white.bg-opacity-75 p.fs-5, .container-sm .bg-white.bg-opacity-75 p.fs-5, .container-md .bg-white.bg-opacity-75 p.fs-5, .container-lg .bg-white.bg-opacity-75 p.fs-5, .container-xl .bg-white.bg-opacity-75 p.fs-5, .container-xxl .bg-white.bg-opacity-75 p.fs-5 {
   text-align: left;
-  color: #727272;
-  margin-left: 45%;
-  margin-top: -20%;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  margin-top: -2%;
 }
-.s2_grid > div:nth-child(1) {
-  background-image: url("../../../public/css/img/logo-1.png");
-}
-.s2_grid > div:nth-child(2) {
-  background-image: url("../../../public/css/img/logo-2.png");
-}
-.s2_grid > div:nth-child(3) {
-  background-image: url("../../../public/css/img/logo-3.png");
-}
-.s2_grid > div:nth-child(4) {
-  background-image: url("../../../public/css/img/logo-4.png");
-}
-.s2_grid > div:nth-child(1), .s2_grid > div:nth-child(2), .s2_grid > div:nth-child(3), .s2_grid > div:nth-child(4) {
-  background-size: 15%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.s2_grid p {
-  top: 0.5em;
-  position: relative;
-  justify-content: left;
-  padding-right: 40%;
-}
-
-.t4 {
-  width: 90%;
-  font-size: 13px;
-  position: relative;
-  text-align: left;
-}
-
-#myCarousel .carousel-item {
-  position: relative;
-  height: 300px;
-  margin-top: 3%;
-}
-#myCarousel .carousel-item .carousel-image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url("../../../public/css/img/testi.jpg");
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-#myCarousel .carousel-item .carousel-filtre {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  color: black;
-  background: rgba(0, 0, 0, 0.8);
-  width: 100%;
-  height: 100%;
-}
-#myCarousel .carousel-control-prev, #myCarousel .carousel-control-next {
-  filter: invert-color(1);
-  margin-top: 5%;
+.container-fluid .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-sm .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-md .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-lg .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-xl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-xxl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-fluid .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-sm .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-md .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-lg .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-xl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-xxl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom {
+  text-align: center;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=app.css.map */
