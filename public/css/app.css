@@ -11872,7 +11872,7 @@ textarea.form-control-lg {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
   display: flex;
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 .container-fluid.background-image, .background-image.container-sm, .background-image.container-md, .background-image.container-lg, .background-image.container-xl, .background-image.container-xxl {
@@ -11890,14 +11890,17 @@ textarea.form-control-lg {
   height: 100%;
   display: flex;
 }
-.container-fluid .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-sm .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-md .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-lg .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-xl .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-xxl .bg-white.bg-opacity-75 h1.display-5.fw-bold, .container-fluid .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-sm .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-md .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-lg .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-xl .bg-white.bg-opacity-75 .display-5.fw-bold.h1, .container-xxl .bg-white.bg-opacity-75 .display-5.fw-bold.h1 {
+.container-fluid .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-sm .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-md .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-lg .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-xl .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-xxl .bg-white.bg-opacity-75 h1.display-6.fw-bold, .container-fluid .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-sm .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-md .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-lg .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-xl .bg-white.bg-opacity-75 .display-6.fw-bold.h1, .container-xxl .bg-white.bg-opacity-75 .display-6.fw-bold.h1 {
   text-align: center;
+  margin-top: -19.3%;
 }
-.container-fluid .bg-white.bg-opacity-75 p.fs-4, .container-sm .bg-white.bg-opacity-75 p.fs-4, .container-md .bg-white.bg-opacity-75 p.fs-4, .container-lg .bg-white.bg-opacity-75 p.fs-4, .container-xl .bg-white.bg-opacity-75 p.fs-4, .container-xxl .bg-white.bg-opacity-75 p.fs-4 {
-  text-align: center;
+.container-fluid .bg-white.bg-opacity-75 p.fs-5, .container-sm .bg-white.bg-opacity-75 p.fs-5, .container-md .bg-white.bg-opacity-75 p.fs-5, .container-lg .bg-white.bg-opacity-75 p.fs-5, .container-xl .bg-white.bg-opacity-75 p.fs-5, .container-xxl .bg-white.bg-opacity-75 p.fs-5 {
+  text-align: left;
+  margin-top: -2%;
 }
-.container-fluid .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-sm .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-md .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-lg .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-xl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-xxl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg, .container-fluid .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-sm .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-md .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-lg .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-xl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary, .container-xxl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary {
+.container-fluid .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-sm .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-md .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-lg .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-xl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-xxl .bg-white.bg-opacity-75 a.btn.btn-primary.btn-lg.taille-custom, .container-fluid .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-sm .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-md .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-lg .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-xl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom, .container-xxl .bg-white.bg-opacity-75 .btn-group-lg > a.btn.btn-primary.taille-custom {
   text-align: center;
+  font-size: 10px;
 }
 
 .custom-style {
@@ -12019,7 +12022,7 @@ textarea.form-control-lg {
 
 .case {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex: 2;
   justify-content: right;
   padding-right: 7%;
